@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="no-js" lang="es" dir="ltr">
+
+<head>
+    <title>Lineight</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" type="text/css" href="icons/flaticon.css">
+
+</head>
+
+<body>
+
+    <div class="off-canvas-wrapper">
+
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+
+                <nav data-magellan>
+                    <ul class="menu vertical" data-drilldown>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li>
+                            <a href="#services-container">Servicios</a>
+                            <ul class="menu vertical">
+                                <li><a data-toggle-dia="panelservice1" href="#services-container">Desarrolo Web</a></li>
+                                <li><a data-toggle-dia="panelservice2" href="#services-container">Diseño de logos</a></li>
+                                <li><a data-toggle-dia="panelservice3" href="#services-container">Base de Datos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#portfolio-container">Portfolio</a></li>
+                        <li><a href="#suscribete-container">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="off-canvas-content" data-off-canvas-content>
+                <!--          Social                           -->
+                <section id="social-container">
+                    <div class="row align-center text-center">
+                        <div class="small-1 column">
+                            <a href="#" target="_blank">
+                                <i class="flaticon-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="small-1 column">
+                            <a href="#" target="_blank">
+                                <i class="flaticon-gorjeo"></i>
+                            </a>
+                        </div>
+                        <div class="small-1 column">
+                            <a href="#" target="_blank">
+                                <i class="flaticon-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="small-1 column">
+                            <a href="#" target="_blank">
+                                <i class="flaticon-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--          /Social                           -->
+                <!--          logo                           -->
+                <section id="logo-container">
+                    <div id="imgContainer" class="row align-center align-middle">
+                        <div class="title column small-12 medium-7 text-center">
+                            <h1>Lineight</h1>
+                        </div>
+                    </div>
+                    <div class="row" data-magellan>
+                        <div id="masInfo" class="column text-center">
+                            <h4><a href="#services-container">Más información</a></h4>
+                        </div>
+                    </div>
+                    <!-- <div class="callout text-center">
+                        <h1>Fishingred</h1>
+                    </div> -->
+                </section>
+                <!--          /logo                           -->
+                <!--                   Menu                   -->
+                <section id="scroll-sticky" data-sticky-container>
+                    <div class="data-sticky" data-sticky data-options="margintop:0" data-sticky-on="small" data-top-anchor="scroll-sticky">
+                        <nav id="menu-container" data-magellan>
+                            <ul class="menu show-for-small-only align-spaced">
+                                <li><a href="#" data-toggle="offCanvas">Menu</a></li>
+                            </ul>
+                            <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                                <li><a href="#">Sobre Nosotros</a></li>
+                                <li>
+                                    <a href="#services-container">Servicios</a>
+                                    <ul id="submenu-container" class="menu">
+                                        <li><a data-toggle-dia="panelservice1" href="#services-container">Desarrollo web</a></li>
+                                        <li><a data-toggle-dia="panelservice2" href="#services-container">Diseño de logos</a></li>
+                                        <li><a data-toggle-dia="panelservice3" href="#services-container">Base de datos</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#portfolio-container">portafolio</a></li>
+                                <li><a href="#suscribete-container">blog</a></li>
+                                <li><a href="#">Contactenos</a></li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                </section>
+                <!--                   Menu                   -->
+                <!--          services                           -->
+                <section id="services-container">
+                    <h2 class="text-center">Portafolio</h2>
+                    <ul class="tabs text-center" data-tabs id="services-tabs">
+                        <li class="tabs-title is-active">
+                            <a href="#panelservice1">Desarrolo Web</a>
+                        </li>
+                        <li class="tabs-title">
+                            <a href="#panelservice2">Diseño de logos</a>
+                        </li>
+                        <li class="tabs-title">
+                            <a href="#panelservice3">Base de Datos</a>
+                        </li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="services-tabs">
+                        <div class="tabs-panel is-active" id="panelservice1">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                    <figcaption class="orbit-caption">Desarrolo Web</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="panelservice2">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Diseño de logos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="panelservice3">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                        <div class="orbit-wrapper">
+                                            <div class="orbit-slide">
+                                                <figure class="orbit-figure">
+                                                    <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                    <figcaption class="orbit-caption">Base de Datos</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="orbit-container">
+                    <div class="row align-center">
+                        <div class="small-12 medium-6 large-12 column ">
+                            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                                <div class="orbit-wrapper">
+                                    <div class="orbit-controls">
+                                        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                                        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                                    </div>
+                                    <ul class="orbit-container">
+                                        <li class="is-active orbit-slide">
+                                            <figure class="orbit-figure">
+                                                <img class="orbit-image" src="img/Dise%C3%B1oWeb.png" alt="Space">
+                                                <figcaption class="orbit-caption">Element one</figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="orbit-slide">
+                                            <figure class="orbit-figure">
+                                                <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                <figcaption class="orbit-caption">Element two</figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="orbit-slide">
+                                            <figure class="orbit-figure">
+                                                <img class="orbit-image" src="img/BaseDeDatos.jpg" alt="Space">
+                                                <figcaption class="orbit-caption">Element tree</figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="orbit-slide">
+                                            <figure class="orbit-figure">
+                                                <img class="orbit-image" src="img/Dise%C3%B1oDeLogos.jpg" alt="Space">
+                                                <figcaption class="orbit-caption">Element four</figcaption>
+                                            </figure>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <nav class="orbit-bullets">
+                                    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                                    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                                    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--          /services                           -->
+                <!--          portfolio                          -->
+                <section id="portfolio-container" data-magellan-target="portfolio-container">
+                    <div class="row">
+                        <div class="column">
+                            <h3 class="text-center">Information</h3>
+                            <img data-interchange="[img/Dise%C3%B1oWeb.png, small], [img/Dise%C3%B1oDeLogos.jpg, medium]">
+                        </div>
+                    </div>
+                </section>
+                <!--          /portfolio                           -->
+                <!--          suscribete                           -->
+                <section id="suscribete-container">
+                    <h3 class="text-center">Registrate</h3>
+                    <h4 class="text-center"><small>y recibe informacion de nuestras ofertas y novedades</small></h4>
+                    <form action="" method="" novalidate data-abide>
+                        <div data-abide-error class="row columns small-12 medium-6 text-center error-container" style="display: none">
+                            <p><i class="fi-alert"></i> Introduzca un correo valido</p>
+                        </div>
+                        <div class="row columns small-12 medium-6">
+                            <div class="input-group">
+                                <spam class="input-group-label"><i class="fi-mail"></i></spam>
+                                <input type="email" name="emal" class="input-group-field" placeholder="tu@correo.com" required>
+                                <div class="input-group-button">
+                                    <input type="submit" class="button" value="Suscribete!">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <!--          suscribete                           -->
+                <!--                     Footer                     -->
+                <section id="footer-container">
+                    <div class="row align-justify">
+                        <div class="column small-12 medium-5">
+                            <h4>Sobre Nosotros</h4>
+                            <p>Proyecto Lineight &copy; </p>
+                            <p>Oficina Remota - Bogota, Colombia.</p>
+                            <p>Oficina - Nueva Esparta, Venezuela.</p>
+                            <p>Rif.: J-54862189-5</p>
+                            <p>Email: <a>lin8eight@gmail.com</a></p>
+                        </div>
+                        <div class="column small-12 medium-5">
+                            <h4>Menu</h4>
+                            <p>Contact us</p>
+                            <p>Nueva Esparta - Venezuela</p>
+                            <p>Telefono: +42 426 188 66 54</p>
+                        </div>
+                    </div>
+                </section>
+                <!--                     Footer                     -->
+                <!--          Copy                           -->
+                <section id="copy-container">
+                    <div class="row text-center text-middle">
+                        <div class="column">
+                            <h6>Desarrollado por <a href="https://www.lineight.com.ve" target="_blank">Lineight</a>  &copy; 2018 | Todos los derechos recervados.</h6>
+                        </div>
+                    </div>
+                </section>
+                <!--          Copy                           -->
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
